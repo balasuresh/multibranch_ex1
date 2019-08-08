@@ -4,6 +4,7 @@ node {
  }
  
  stage("Print branch"){
+        echo 'Working fine'
         echo 'Pulling...' + env.BRANCH_NAME  
  }
  
